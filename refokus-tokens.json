@@ -108,7 +108,7 @@
       "value": "135%",
       "type": "lineHeights"
     },
-    "Titles": {
+    "titles": {
       "c-title-1": {
         "desktop": {
           "medium": {
@@ -292,7 +292,7 @@
         }
       }
     },
-    "Text": {
+    "text": {
       "c-text-1": {
         "desktop": {
           "bold": {
