@@ -53,15 +53,15 @@
       "type": "fontSizes"
     },
     "370": {
-      "value": "400",
+      "value": "Regular",
       "type": "fontWeights"
     },
     "530": {
-      "value": "500",
+      "value": "Medium",
       "type": "fontWeights"
     },
     "645": {
-      "value": "600",
+      "value": "Bold",
       "type": "fontWeights"
     },
     "font-main": {
