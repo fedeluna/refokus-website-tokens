@@ -423,7 +423,7 @@
       },
       "purple": {
         "50": {
-          "value": "hsla({source.purple}, 100%, 96%)",
+          "value": "hsla({source.purple}, 100%, 98%)",
           "type": "color"
         },
         "300": {
