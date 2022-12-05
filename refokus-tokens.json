@@ -531,18 +531,28 @@
           "type": "typography"
         }
       },
-      "spacing": {
-        "medium": {
-          "value": "160px",
-          "type": "spacing",
-          "description": "medium value always means \"default\""
-        }
+      "medium": {
+        "value": "160px",
+        "type": "spacing",
+        "description": "medium value always means \"default\""
       },
       "text": {
         "primary": {
           "value": "{core.c-text-2.regular-desktop}",
           "type": "typography"
         }
+      }
+    },
+    "duration": {
+      "default": {
+        "value": "300ms",
+        "type": "Animation"
+      }
+    },
+    "easing": {
+      "default": {
+        "value": "easeOutQart (0.25, 1, 0.5, 1)",
+        "type": "Animation"
       }
     }
   },
