@@ -1,5 +1,5 @@
 {
-  "Refokus": {
+  "$rfks": {
     "0": {
       "value": "0%",
       "type": "letterSpacing"
@@ -478,6 +478,10 @@
         "900": {
           "value": "hsla({source.gray}, 6%, 9%)",
           "type": "color"
+        },
+        "850 [out of system]": {
+          "value": "#1B1B1B",
+          "type": "color"
         }
       },
       "neutral": {
@@ -508,12 +512,43 @@
     "none": {
       "value": "none",
       "type": "textCase"
+    },
+    "section": {
+      "background": {
+        "default-light": {
+          "value": "{core.purple.50}",
+          "type": "color"
+        },
+        "default-dark": {
+          "value": "{core.gray.850 [out of system]}",
+          "type": "color"
+        }
+      },
+      "heading": {
+        "primary": {
+          "value": "{core.c-title-3.medium-desktop}",
+          "type": "typography"
+        }
+      },
+      "spacing": {
+        "medium": {
+          "value": "160px",
+          "type": "spacing",
+          "description": "medium value always means \"default\""
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "{core.c-text-2.regular-desktop}",
+          "type": "typography"
+        }
+      }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Refokus"
+      "$rfks"
     ]
   }
 }
