@@ -246,7 +246,8 @@
             "fontWeight": "{530}",
             "lineHeight": "{1,2EM}",
             "fontSize": "{28}",
-            "letterSpacing": "{-1}"
+            "letterSpacing": "{-1}",
+            "textCase": "{default-case}"
           },
           "type": "typography",
           "description": "28px"
@@ -486,11 +487,11 @@
       },
       "neutral": {
         "black": {
-          "value": "hsla({source.gray}, 100%, 0%)",
+          "value": "#000000",
           "type": "color"
         },
         "white": {
-          "value": "hsla({source.gray}, 100%, 1000%)",
+          "value": "#FFFFFF",
           "type": "color"
         }
       }
