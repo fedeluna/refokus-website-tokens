@@ -635,6 +635,10 @@
           "type": "color"
         }
       }
+    },
+    "default": {
+      "value": "500px",
+      "type": "borderRadius"
     }
   },
   "$themes": [],
