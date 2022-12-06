@@ -477,11 +477,11 @@
           "type": "color"
         },
         "900": {
-          "value": "hsla({source.gray}, 6%, 9%)",
+          "value": "#161618",
           "type": "color"
         },
         "850 [out of system]": {
-          "value": "#1B1B1B",
+          "value": "#1b1b1b",
           "type": "color"
         }
       },
@@ -491,7 +491,7 @@
           "type": "color"
         },
         "white": {
-          "value": "#FFFFFF",
+          "value": "#ffffff",
           "type": "color"
         }
       }
@@ -517,11 +517,12 @@
     "section": {
       "background": {
         "default-light": {
-          "value": "{core.purple.50}",
-          "type": "color"
+          "value": "#f8f5ff",
+          "type": "color",
+          "description": "section"
         },
         "default-dark": {
-          "value": "{core.gray.850 [out of system]}",
+          "value": "#1b1b1b",
           "type": "color"
         }
       },
@@ -540,6 +541,28 @@
         "primary": {
           "value": "{core.c-text-2.regular-desktop}",
           "type": "typography"
+        },
+        "dafault-on-dark": {
+          "value": "#c2c2c7",
+          "type": "color"
+        },
+        "dafault-on-light": {
+          "value": "#161618",
+          "type": "color"
+        },
+        "default-on-dark": {
+          "value": "#c2c2c7",
+          "type": "color"
+        },
+        "default-on-light": {
+          "value": "#161618",
+          "type": "color"
+        }
+      },
+      "title": {
+        "default-on-dark": {
+          "value": "#ffffff",
+          "type": "color"
         }
       }
     },
@@ -553,6 +576,36 @@
       "default": {
         "value": "easeOutQart (0.25, 1, 0.5, 1)",
         "type": "Animation"
+      }
+    },
+    "special": {
+      "nav": {
+        "dot-focus": {
+          "value": "#00ff19",
+          "type": "color"
+        }
+      }
+    },
+    "action": {
+      "background": {
+        "primary-default-light": {
+          "value": "#f8f5ff",
+          "type": "color"
+        },
+        "primary-default-dark": {
+          "value": "{core.gray.850 [out of system]}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "primary-default-on-dark": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "primary-default-on-light": {
+          "value": "#1b1b1b",
+          "type": "color"
+        }
       }
     }
   },
