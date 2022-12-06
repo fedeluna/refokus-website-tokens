@@ -330,6 +330,18 @@
           "type": "typography",
           "description": "16px"
         },
+        "medium-desktop": {
+          "value": {
+            "fontFamily": "{font-main}",
+            "fontWeight": "{530}",
+            "lineHeight": "{1,3EM}",
+            "fontSize": "{16}",
+            "letterSpacing": "{0}",
+            "textCase": "{default-case}"
+          },
+          "type": "typography",
+          "description": "16px"
+        },
         "regular-desktop": {
           "value": {
             "fontFamily": "{font-main}",
@@ -348,6 +360,18 @@
           "value": {
             "fontFamily": "{font-main}",
             "fontWeight": "{645}",
+            "lineHeight": "{1,3EM}",
+            "fontSize": "{14}",
+            "letterSpacing": "{0}",
+            "textCase": "{default-case}"
+          },
+          "type": "typography",
+          "description": "14px"
+        },
+        "medium-desktop": {
+          "value": {
+            "fontFamily": "{font-main}",
+            "fontWeight": "{530}",
             "lineHeight": "{1,3EM}",
             "fontSize": "{14}",
             "letterSpacing": "{0}",
@@ -580,8 +604,12 @@
     },
     "special": {
       "nav": {
-        "dot-focus": {
+        "dot-focus-on-dark": {
           "value": "#00ff19",
+          "type": "color"
+        },
+        "dot-focus-on-light": {
+          "value": "#00d716",
           "type": "color"
         }
       }
