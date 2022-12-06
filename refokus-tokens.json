@@ -145,6 +145,10 @@
         "value": "80px",
         "type": "spacing"
       },
+      "96": {
+        "value": "96px",
+        "type": "spacing"
+      },
       "160": {
         "value": "160px",
         "type": "spacing"
