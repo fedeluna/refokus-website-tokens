@@ -109,6 +109,46 @@
       "type": "lineHeights"
     },
     "core": {
+      "4": {
+        "value": "4px",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "16": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "24": {
+        "value": "24px",
+        "type": "spacing"
+      },
+      "32": {
+        "value": "32px",
+        "type": "spacing"
+      },
+      "40": {
+        "value": "40px",
+        "type": "spacing"
+      },
+      "48": {
+        "value": "48px",
+        "type": "spacing"
+      },
+      "64": {
+        "value": "64px",
+        "type": "spacing"
+      },
+      "80": {
+        "value": "80px",
+        "type": "spacing"
+      },
+      "160": {
+        "value": "160px",
+        "type": "spacing"
+      },
       "c-title-1": {
         "medium-desktop": {
           "value": {
