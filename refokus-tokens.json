@@ -121,6 +121,10 @@
         "value": "16px",
         "type": "spacing"
       },
+      "20": {
+        "value": "20px",
+        "type": "spacing"
+      },
       "24": {
         "value": "24px",
         "type": "spacing"
