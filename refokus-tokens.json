@@ -603,7 +603,7 @@
       "type": "borderRadius"
     }
   },
-  "color-system": {
+  "color": {
     "action": {
       "background": {
         "primary-default-light": {
@@ -671,7 +671,7 @@
       }
     }
   },
-  "spacing-system": {
+  "spacing": {
     "section": {
       "medium": {
         "value": "{source.160}",
@@ -679,7 +679,7 @@
       }
     }
   },
-  "type-system": {
+  "type": {
     "section": {
       "heading": {
         "primary": {
@@ -699,9 +699,9 @@
   "$metadata": {
     "tokenSetOrder": [
       "source",
-      "color-system",
-      "spacing-system",
-      "type-system"
+      "color",
+      "spacing",
+      "type"
     ]
   }
 }
