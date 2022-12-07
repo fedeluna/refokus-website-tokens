@@ -636,6 +636,12 @@
           "value": "#00d716",
           "type": "color"
         }
+      },
+      "brand": {
+        "webflow": {
+          "value": "#4353FF",
+          "type": "color"
+        }
       }
     },
     "section": {
