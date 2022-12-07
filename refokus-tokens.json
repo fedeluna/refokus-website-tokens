@@ -108,7 +108,7 @@
       "value": "135%",
       "type": "lineHeights"
     },
-    "core": {
+    "source": {
       "4": {
         "value": "4px",
         "type": "spacing"
@@ -157,6 +157,16 @@
         "value": "160px",
         "type": "spacing"
       },
+      "gray": {
+        "value": "240",
+        "type": "color"
+      },
+      "purple": {
+        "value": "256",
+        "type": "color"
+      }
+    },
+    "core": {
       "c-title-1": {
         "medium-desktop": {
           "value": {
@@ -549,7 +559,7 @@
           "type": "color"
         },
         "900": {
-          "value": "#161618",
+          "value": "hsla({source.gray}, 6%, 9%)",
           "type": "color"
         },
         "850 [out of system]": {
@@ -568,16 +578,6 @@
         }
       }
     },
-    "source": {
-      "gray": {
-        "value": "240",
-        "type": "color"
-      },
-      "purple": {
-        "value": "256",
-        "type": "color"
-      }
-    },
     "default-case": {
       "value": "lowercase",
       "type": "textCase"
@@ -589,12 +589,11 @@
     "section": {
       "background": {
         "default-light": {
-          "value": "#f8f5ff",
-          "type": "color",
-          "description": "section"
+          "value": "{core.purple.50}",
+          "type": "color"
         },
         "default-dark": {
-          "value": "#1b1b1b",
+          "value": "{core.gray.850 [out of system]}",
           "type": "color"
         }
       },
@@ -615,25 +614,21 @@
           "type": "typography"
         },
         "dafault-on-dark": {
-          "value": "#c2c2c7",
+          "value": "{core.gray.200}",
           "type": "color"
         },
         "dafault-on-light": {
-          "value": "#161618",
-          "type": "color"
-        },
-        "default-on-dark": {
-          "value": "#c2c2c7",
-          "type": "color"
-        },
-        "default-on-light": {
-          "value": "#161618",
+          "value": "{core.gray.850 [out of system]}",
           "type": "color"
         }
       },
       "title": {
         "default-on-dark": {
-          "value": "#ffffff",
+          "value": "{core.neutral.white}",
+          "type": "color"
+        },
+        "default-on-light": {
+          "value": "{core.gray.850 [out of system]}",
           "type": "color"
         }
       }
@@ -665,7 +660,7 @@
     "action": {
       "background": {
         "primary-default-light": {
-          "value": "#f8f5ff",
+          "value": "{core.purple.50}",
           "type": "color"
         },
         "primary-default-dark": {
@@ -675,11 +670,11 @@
       },
       "text": {
         "primary-default-on-dark": {
-          "value": "#ffffff",
+          "value": "{core.neutral.white}",
           "type": "color"
         },
         "primary-default-on-light": {
-          "value": "#1b1b1b",
+          "value": "{core.gray.850 [out of system]}",
           "type": "color"
         }
       }
