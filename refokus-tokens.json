@@ -1,5 +1,5 @@
 {
-  "$rfks": {
+  "source": {
     "0": {
       "value": "0%",
       "type": "letterSpacing"
@@ -586,53 +586,6 @@
       "value": "none",
       "type": "textCase"
     },
-    "section": {
-      "background": {
-        "default-light": {
-          "value": "{core.purple.50}",
-          "type": "color"
-        },
-        "default-dark": {
-          "value": "{core.gray.850 [out of system]}",
-          "type": "color"
-        }
-      },
-      "heading": {
-        "primary": {
-          "value": "{core.c-title-3.medium-desktop}",
-          "type": "typography"
-        }
-      },
-      "medium": {
-        "value": "160px",
-        "type": "spacing",
-        "description": "medium value always means \"default\""
-      },
-      "text": {
-        "primary": {
-          "value": "{core.c-text-2.regular-desktop}",
-          "type": "typography"
-        },
-        "dafault-on-dark": {
-          "value": "{core.gray.200}",
-          "type": "color"
-        },
-        "dafault-on-light": {
-          "value": "{core.gray.850 [out of system]}",
-          "type": "color"
-        }
-      },
-      "title": {
-        "default-on-dark": {
-          "value": "{core.neutral.white}",
-          "type": "color"
-        },
-        "default-on-light": {
-          "value": "{core.gray.850 [out of system]}",
-          "type": "color"
-        }
-      }
-    },
     "duration": {
       "default": {
         "value": "300ms",
@@ -645,18 +598,12 @@
         "type": "Animation"
       }
     },
-    "special": {
-      "nav": {
-        "dot-focus-on-dark": {
-          "value": "#00ff19",
-          "type": "color"
-        },
-        "dot-focus-on-light": {
-          "value": "#00d716",
-          "type": "color"
-        }
-      }
-    },
+    "default": {
+      "value": "500px",
+      "type": "borderRadius"
+    }
+  },
+  "color-system": {
     "action": {
       "background": {
         "primary-default-light": {
@@ -679,15 +626,82 @@
         }
       }
     },
-    "default": {
-      "value": "500px",
-      "type": "borderRadius"
+    "special": {
+      "nav": {
+        "dot-focus-on-dark": {
+          "value": "#00ff19",
+          "type": "color"
+        },
+        "dot-focus-on-light": {
+          "value": "#00d716",
+          "type": "color"
+        }
+      }
+    },
+    "section": {
+      "background": {
+        "default-light": {
+          "value": "{core.purple.50}",
+          "type": "color"
+        },
+        "default-dark": {
+          "value": "{core.gray.850 [out of system]}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "dafault-on-dark": {
+          "value": "{core.gray.200}",
+          "type": "color"
+        },
+        "dafault-on-light": {
+          "value": "{core.gray.850 [out of system]}",
+          "type": "color"
+        }
+      },
+      "title": {
+        "default-on-dark": {
+          "value": "{core.neutral.white}",
+          "type": "color"
+        },
+        "default-on-light": {
+          "value": "{core.gray.850 [out of system]}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "spacing-system": {
+    "section": {
+      "medium": {
+        "value": "{source.160}",
+        "type": "spacing"
+      }
+    }
+  },
+  "type-system": {
+    "section": {
+      "heading": {
+        "primary": {
+          "value": "{core.c-title-3.medium-desktop}",
+          "type": "typography"
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "{core.c-text-2.regular-desktop}",
+          "type": "typography"
+        }
+      }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "$rfks"
+      "source",
+      "color-system",
+      "spacing-system",
+      "type-system"
     ]
   }
 }
