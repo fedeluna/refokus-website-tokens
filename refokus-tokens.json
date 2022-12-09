@@ -1,9 +1,5 @@
 {
-  "source": {
-    "0": {
-      "value": "0%",
-      "type": "letterSpacing"
-    },
+  "source-set": {
     "10": {
       "value": "10px",
       "type": "fontSizes"
@@ -72,14 +68,6 @@
       "value": "Saol Display TRIAL, Playfair Display",
       "type": "fontFamilies"
     },
-    "-1": {
-      "value": "-1%",
-      "type": "letterSpacing"
-    },
-    "-2": {
-      "value": "-2%",
-      "type": "letterSpacing"
-    },
     "1EM": {
       "value": "100%",
       "type": "lineHeights"
@@ -108,67 +96,77 @@
       "value": "135%",
       "type": "lineHeights"
     },
-    "source": {
-      "4": {
-        "value": "4px",
-        "type": "spacing"
-      },
-      "8": {
-        "value": "8px",
-        "type": "spacing"
-      },
-      "16": {
-        "value": "16px",
-        "type": "spacing"
-      },
-      "20": {
-        "value": "20px",
-        "type": "spacing"
-      },
-      "24": {
-        "value": "24px",
-        "type": "spacing"
-      },
-      "32": {
-        "value": "32px",
-        "type": "spacing"
-      },
-      "40": {
-        "value": "40px",
-        "type": "spacing"
-      },
-      "48": {
-        "value": "48px",
-        "type": "spacing"
-      },
-      "64": {
-        "value": "64px",
-        "type": "spacing"
-      },
-      "80": {
-        "value": "80px",
-        "type": "spacing"
-      },
-      "96": {
-        "value": "96px",
-        "type": "spacing"
-      },
-      "120": {
-        "value": "120px",
-        "type": "spacing"
-      },
-      "160": {
-        "value": "160px",
-        "type": "spacing"
-      },
-      "gray": {
-        "value": "240",
-        "type": "color"
-      },
-      "purple": {
-        "value": "256",
-        "type": "color"
-      }
+    "0": {
+      "value": "0%",
+      "type": "letterSpacing"
+    },
+    "-1": {
+      "value": "-1%",
+      "type": "letterSpacing"
+    },
+    "-2": {
+      "value": "-2%",
+      "type": "letterSpacing"
+    },
+    "4": {
+      "value": "4px",
+      "type": "spacing"
+    },
+    "8": {
+      "value": "8px",
+      "type": "spacing"
+    },
+    "16": {
+      "value": "16px",
+      "type": "spacing"
+    },
+    "20": {
+      "value": "20px",
+      "type": "spacing"
+    },
+    "24": {
+      "value": "24px",
+      "type": "spacing"
+    },
+    "32": {
+      "value": "32px",
+      "type": "spacing"
+    },
+    "40": {
+      "value": "40px",
+      "type": "spacing"
+    },
+    "48": {
+      "value": "48px",
+      "type": "spacing"
+    },
+    "64": {
+      "value": "64px",
+      "type": "spacing"
+    },
+    "80": {
+      "value": "80px",
+      "type": "spacing"
+    },
+    "96": {
+      "value": "96px",
+      "type": "spacing"
+    },
+    "120": {
+      "value": "120px",
+      "type": "spacing"
+    },
+    "160": {
+      "value": "160px",
+      "type": "spacing"
+    },
+    "gray": {
+      "value": "240",
+      "type": "color"
+    },
+    "purple": {
+      "value": "256",
+      "type": "color"
     },
     "core": {
       "c-title-1": {
@@ -586,10 +584,6 @@
       "value": "lowercase",
       "type": "textCase"
     },
-    "none": {
-      "value": "none",
-      "type": "textCase"
-    },
     "duration": {
       "default": {
         "value": "300ms",
@@ -607,7 +601,7 @@
       "type": "borderRadius"
     }
   },
-  "color": {
+  "color-sys": {
     "action": {
       "background": {
         "primary-default-light": {
@@ -681,7 +675,7 @@
       }
     }
   },
-  "spacing": {
+  "spacing-sys": {
     "section": {
       "medium": {
         "value": "{source.160}",
@@ -689,7 +683,7 @@
       }
     }
   },
-  "type": {
+  "type-sys": {
     "section": {
       "heading": {
         "primary": {
