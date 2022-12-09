@@ -148,13 +148,15 @@
       "value": "-2%",
       "type": "letterSpacing"
     },
-    "gray": {
-      "value": "240",
-      "type": "color"
-    },
-    "purple": {
-      "value": "256",
-      "type": "color"
+    "source": {
+      "gray": {
+        "value": "240",
+        "type": "color"
+      },
+      "purple": {
+        "value": "256",
+        "type": "color"
+      }
     },
     "core": {
       "c-title-1": {
