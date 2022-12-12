@@ -571,7 +571,7 @@
       }
     },
     "default-case": {
-      "value": "lowercase",
+      "value": "none",
       "type": "textCase"
     },
     "duration": {
@@ -596,21 +596,25 @@
       "action": {
         "primary-default-light": {
           "value": "{core.purple.50}",
-          "type": "color"
+          "type": "color",
+          "description": "bg"
         },
         "primary-default-dark": {
           "value": "{core.gray.850 [out of system]}",
-          "type": "color"
+          "type": "color",
+          "description": "bg"
         }
       },
       "section": {
         "default-light": {
           "value": "{core.purple.50}",
-          "type": "color"
+          "type": "color",
+          "description": "bg"
         },
         "default-dark": {
           "value": "{core.gray.850 [out of system]}",
-          "type": "color"
+          "type": "color",
+          "description": "bg"
         }
       }
     },
