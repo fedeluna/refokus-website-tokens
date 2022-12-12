@@ -658,7 +658,7 @@
         }
       }
     },
-    "heading": {
+    "title": {
       "section": {
         "default-on-dark": {
           "value": "{core.neutral.white}",
@@ -682,7 +682,7 @@
     }
   },
   "system-type": {
-    "heading": {
+    "title": {
       "section": {
         "primary": {
           "value": "{core.c-title-3.medium-desktop}",
