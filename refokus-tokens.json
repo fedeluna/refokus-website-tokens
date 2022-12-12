@@ -658,7 +658,7 @@
         }
       }
     },
-    "title": {
+    "heading": {
       "section": {
         "default-on-dark": {
           "value": "{core.neutral.white}",
