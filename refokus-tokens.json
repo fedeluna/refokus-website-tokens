@@ -592,8 +592,8 @@
     }
   },
   "system-color": {
-    "action": {
-      "background": {
+    "background": {
+      "action": {
         "primary-default-light": {
           "value": "{core.purple.50}",
           "type": "color"
@@ -603,12 +603,34 @@
           "type": "color"
         }
       },
-      "text": {
+      "section": {
+        "default-light": {
+          "value": "{core.purple.50}",
+          "type": "color"
+        },
+        "default-dark": {
+          "value": "{core.gray.850 [out of system]}",
+          "type": "color"
+        }
+      }
+    },
+    "text": {
+      "action": {
         "primary-default-on-dark": {
           "value": "{core.neutral.white}",
           "type": "color"
         },
         "primary-default-on-light": {
+          "value": "{core.gray.850 [out of system]}",
+          "type": "color"
+        }
+      },
+      "section": {
+        "dafault-on-dark": {
+          "value": "{core.gray.200}",
+          "type": "color"
+        },
+        "dafault-on-light": {
           "value": "{core.gray.850 [out of system]}",
           "type": "color"
         }
@@ -632,28 +654,8 @@
         }
       }
     },
-    "section": {
-      "background": {
-        "default-light": {
-          "value": "{core.purple.50}",
-          "type": "color"
-        },
-        "default-dark": {
-          "value": "{core.gray.850 [out of system]}",
-          "type": "color"
-        }
-      },
-      "text": {
-        "dafault-on-dark": {
-          "value": "{core.gray.200}",
-          "type": "color"
-        },
-        "dafault-on-light": {
-          "value": "{core.gray.850 [out of system]}",
-          "type": "color"
-        }
-      },
-      "title": {
+    "title": {
+      "section": {
         "default-on-dark": {
           "value": "{core.neutral.white}",
           "type": "color"
@@ -667,21 +669,25 @@
   },
   "system-spacing": {
     "section": {
-      "medium": {
-        "value": "{160}",
-        "type": "spacing"
+      "desktop": {
+        "medium": {
+          "value": "{160}",
+          "type": "spacing"
+        }
       }
     }
   },
   "system-type": {
-    "section": {
-      "heading": {
+    "heading": {
+      "section": {
         "primary": {
           "value": "{core.c-title-3.medium-desktop}",
           "type": "typography"
         }
-      },
-      "text": {
+      }
+    },
+    "text": {
+      "section": {
         "primary": {
           "value": "{core.c-text-2.regular-desktop}",
           "type": "typography"
