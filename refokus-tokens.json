@@ -688,6 +688,12 @@
           "value": "{core.c-title-3.medium-desktop}",
           "type": "typography"
         }
+      },
+      "hero": {
+        "primary": {
+          "value": "{core.c-title-1.medium-desktop}",
+          "type": "typography"
+        }
       }
     },
     "text": {
