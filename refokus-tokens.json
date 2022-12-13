@@ -606,12 +606,12 @@
         }
       },
       "section": {
-        "default-light": {
+        "primary-light": {
           "value": "{core.purple.50}",
           "type": "color",
           "description": "bg"
         },
-        "default-dark": {
+        "primary-dark": {
           "value": "{core.gray.850 [out of system]}",
           "type": "color",
           "description": "bg"
