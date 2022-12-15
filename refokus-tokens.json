@@ -576,13 +576,17 @@
     },
     "duration": {
       "default": {
-        "value": "300ms",
+        "value": "1000ms",
         "type": "Animation"
       }
     },
     "easing": {
-      "default": {
-        "value": "easeOutQart (0.25, 1, 0.5, 1)",
+      "OutExpo": {
+        "value": "0.16, 1, 0.3, 1",
+        "type": "Animation"
+      },
+      "InOutQuart": {
+        "value": "0.76, 0, 0.24, 1",
         "type": "Animation"
       }
     },
