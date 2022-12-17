@@ -96,11 +96,11 @@
       "value": "Regular",
       "type": "fontWeights"
     },
-    "530": {
+    "500": {
       "value": "Medium",
       "type": "fontWeights"
     },
-    "645": {
+    "600": {
       "value": "Bold",
       "type": "fontWeights"
     },
@@ -163,7 +163,7 @@
         "medium-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{530}",
+            "fontWeight": "{500}",
             "lineHeight": "{1,25EM}",
             "fontSize": "{271}",
             "letterSpacing": "{-2}",
@@ -189,7 +189,7 @@
         "medium-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{530}",
+            "fontWeight": "{500}",
             "lineHeight": "{1EM}",
             "fontSize": "{153}",
             "letterSpacing": "{-2}",
@@ -215,7 +215,7 @@
         "medium-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{530}",
+            "fontWeight": "{500}",
             "lineHeight": "{1,07EM}",
             "fontSize": "{110}",
             "letterSpacing": "{-1}",
@@ -235,13 +235,25 @@
           },
           "type": "typography",
           "description": "110px"
+        },
+        "serif-desktop": {
+          "value": {
+            "fontFamily": "{font-secondary}",
+            "fontWeight": "{400}",
+            "lineHeight": "{1,07EM}",
+            "fontSize": "{110}",
+            "letterSpacing": "{-1}",
+            "textCase": "{lower-case}"
+          },
+          "type": "typography",
+          "description": "110px"
         }
       },
       "c-title-4": {
         "medium-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{530}",
+            "fontWeight": "{500}",
             "lineHeight": "{1,1EM}",
             "fontSize": "{68}",
             "letterSpacing": "{-1}",
@@ -267,7 +279,7 @@
         "medium-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{530}",
+            "fontWeight": "{500}",
             "lineHeight": "{1,1EM}",
             "fontSize": "{48}",
             "letterSpacing": "{-1}",
@@ -293,7 +305,7 @@
         "medium-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{530}",
+            "fontWeight": "{500}",
             "lineHeight": "{1,2EM}",
             "fontSize": "{28}",
             "letterSpacing": "{-1}",
@@ -319,7 +331,7 @@
         "medium-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{530}",
+            "fontWeight": "{500}",
             "lineHeight": "{1,3EM}",
             "fontSize": "{20}",
             "letterSpacing": "{0}",
@@ -345,7 +357,7 @@
         "bold-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{645}",
+            "fontWeight": "{600}",
             "lineHeight": "{1,35EM}",
             "fontSize": "{18}",
             "letterSpacing": "{0}",
@@ -371,7 +383,7 @@
         "bold-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{645}",
+            "fontWeight": "{600}",
             "lineHeight": "{1,3EM}",
             "fontSize": "{16}",
             "letterSpacing": "{0}",
@@ -383,7 +395,7 @@
         "medium-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{530}",
+            "fontWeight": "{500}",
             "lineHeight": "{1,3EM}",
             "fontSize": "{16}",
             "letterSpacing": "{0}",
@@ -409,7 +421,7 @@
         "bold-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{645}",
+            "fontWeight": "{600}",
             "lineHeight": "{1,3EM}",
             "fontSize": "{14}",
             "letterSpacing": "{0}",
@@ -421,7 +433,7 @@
         "medium-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{530}",
+            "fontWeight": "{500}",
             "lineHeight": "{1,3EM}",
             "fontSize": "{14}",
             "letterSpacing": "{0}",
@@ -447,7 +459,7 @@
         "bold-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{645}",
+            "fontWeight": "{600}",
             "lineHeight": "{1,3EM}",
             "fontSize": "{12}",
             "letterSpacing": "{0}",
@@ -473,7 +485,7 @@
         "bold-desktop": {
           "value": {
             "fontFamily": "{font-main}",
-            "fontWeight": "{645}",
+            "fontWeight": "{600}",
             "lineHeight": "{1,1EM}",
             "fontSize": "{10}",
             "letterSpacing": "{0}",
