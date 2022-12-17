@@ -579,8 +579,24 @@
       "type": "textCase"
     },
     "duration": {
-      "default": {
+      "1s": {
         "value": "1000ms",
+        "type": "Animation"
+      },
+      "0,5s": {
+        "value": "500ms",
+        "type": "Animation"
+      },
+      "0,25s": {
+        "value": "250ms",
+        "type": "Animation"
+      },
+      "1,25s": {
+        "value": "1250ms",
+        "type": "Animation"
+      },
+      "2s": {
+        "value": "2000ms",
         "type": "Animation"
       }
     },
