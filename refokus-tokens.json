@@ -72,6 +72,10 @@
       "value": "96px",
       "type": "spacing"
     },
+    "100": {
+      "value": "100px",
+      "type": "spacing"
+    },
     "110": {
       "value": "110px",
       "type": "fontSizes"
