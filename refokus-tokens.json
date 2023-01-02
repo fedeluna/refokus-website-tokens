@@ -662,53 +662,48 @@
   "system-color": {
     "background": {
       "action": {
-        "primary-default-light": {
+        "primary-default-on-dark": {
           "value": "{core.purple.50}",
           "type": "color",
           "description": "bg"
         },
-        "primary-default-dark": {
-          "value": "{core.gray.850 [out of system]}",
-          "type": "color",
-          "description": "bg"
-        },
-        "primary-default-on-dark": {
-          "value": "#f8f5ff",
-          "type": "color",
-          "description": "bg"
-        },
         "primary-hover-on-dark": {
-          "value": "#e2e2e4",
-          "type": "color",
-          "description": "bg"
-        },
-        "secondary-hover-on-dark": {
-          "value": "#ffffff1a",
+          "value": "{core.gray.100}",
           "type": "color",
           "description": "bg"
         },
         "primary-focus-on-dark": {
-          "value": "#f8f5ff",
+          "value": "{core.purple.50}",
           "type": "color",
           "description": "bg"
         },
         "primary-default-on-light": {
-          "value": "#1b1b1b",
-          "type": "color",
-          "description": "bg"
-        },
-        "secondary-default-on-light": {
-          "value": "#29292e",
+          "value": "{core.gray.850 [out of system]}",
           "type": "color",
           "description": "bg"
         },
         "primary-hover-on-light": {
-          "value": "#3e3e46",
+          "value": "{core.gray.700}",
           "type": "color",
           "description": "bg"
         },
         "primary-focus-on-light": {
-          "value": "#1b1b1b",
+          "value": "{core.gray.850 [out of system]}",
+          "type": "color",
+          "description": "bg"
+        },
+        "secondary-default-on-light": {
+          "value": "{core.gray.800}",
+          "type": "color",
+          "description": "bg"
+        },
+        "secondary-hover-on-light": {
+          "value": "hsla(240, 100%, 0%, 0.08)",
+          "type": "color",
+          "description": "bg"
+        },
+        "secondary-hover-on-dark": {
+          "value": "hsla(240, 100%, 100%, 0.1)",
           "type": "color",
           "description": "bg"
         }
