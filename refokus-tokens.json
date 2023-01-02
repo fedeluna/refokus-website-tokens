@@ -671,6 +671,46 @@
           "value": "{core.gray.850 [out of system]}",
           "type": "color",
           "description": "bg"
+        },
+        "primary-default-on-dark": {
+          "value": "#f8f5ff",
+          "type": "color",
+          "description": "bg"
+        },
+        "primary-hover-on-dark": {
+          "value": "#e2e2e4",
+          "type": "color",
+          "description": "bg"
+        },
+        "secondary-hover-on-dark": {
+          "value": "#ffffff1a",
+          "type": "color",
+          "description": "bg"
+        },
+        "primary-focus-on-dark": {
+          "value": "#f8f5ff",
+          "type": "color",
+          "description": "bg"
+        },
+        "primary-default-on-light": {
+          "value": "#1b1b1b",
+          "type": "color",
+          "description": "bg"
+        },
+        "secondary-default-on-light": {
+          "value": "#29292e",
+          "type": "color",
+          "description": "bg"
+        },
+        "primary-hover-on-light": {
+          "value": "#3e3e46",
+          "type": "color",
+          "description": "bg"
+        },
+        "primary-focus-on-light": {
+          "value": "#1b1b1b",
+          "type": "color",
+          "description": "bg"
         }
       },
       "section": {
