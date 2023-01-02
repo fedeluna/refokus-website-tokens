@@ -4,98 +4,6 @@
       "value": "0%",
       "type": "letterSpacing"
     },
-    "4": {
-      "value": "4px",
-      "type": "spacing"
-    },
-    "8": {
-      "value": "8px",
-      "type": "spacing"
-    },
-    "10": {
-      "value": "10px",
-      "type": "fontSizes"
-    },
-    "12": {
-      "value": "12px",
-      "type": "fontSizes"
-    },
-    "14": {
-      "value": "14px",
-      "type": "fontSizes"
-    },
-    "16": {
-      "value": "16px",
-      "type": "spacing"
-    },
-    "18": {
-      "value": "18px",
-      "type": "fontSizes"
-    },
-    "20": {
-      "value": "20px",
-      "type": "spacing"
-    },
-    "24": {
-      "value": "24px",
-      "type": "spacing"
-    },
-    "28": {
-      "value": "28px",
-      "type": "fontSizes"
-    },
-    "32": {
-      "value": "32px",
-      "type": "spacing"
-    },
-    "40": {
-      "value": "40px",
-      "type": "spacing"
-    },
-    "48": {
-      "value": "48px",
-      "type": "spacing"
-    },
-    "64": {
-      "value": "64px",
-      "type": "spacing"
-    },
-    "68": {
-      "value": "68px",
-      "type": "fontSizes"
-    },
-    "80": {
-      "value": "80px",
-      "type": "spacing"
-    },
-    "96": {
-      "value": "96px",
-      "type": "spacing"
-    },
-    "100": {
-      "value": "100px",
-      "type": "spacing"
-    },
-    "110": {
-      "value": "110px",
-      "type": "fontSizes"
-    },
-    "120": {
-      "value": "120px",
-      "type": "spacing"
-    },
-    "153": {
-      "value": "153px",
-      "type": "fontSizes"
-    },
-    "160": {
-      "value": "160px",
-      "type": "spacing"
-    },
-    "271": {
-      "value": "271px",
-      "type": "fontSizes"
-    },
     "400": {
       "value": "Regular",
       "type": "fontWeights"
@@ -107,6 +15,122 @@
     "600": {
       "value": "Bold",
       "type": "fontWeights"
+    },
+    "core-space": {
+      "4": {
+        "value": "4px",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "12": {
+        "value": "12px",
+        "type": "spacing"
+      },
+      "16": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "20": {
+        "value": "20px",
+        "type": "spacing"
+      },
+      "24": {
+        "value": "24px",
+        "type": "spacing"
+      },
+      "32": {
+        "value": "32px",
+        "type": "spacing"
+      },
+      "40": {
+        "value": "40px",
+        "type": "spacing"
+      },
+      "48": {
+        "value": "48px",
+        "type": "spacing"
+      },
+      "56": {
+        "value": "56px",
+        "type": "spacing"
+      },
+      "64": {
+        "value": "64px",
+        "type": "spacing"
+      },
+      "80": {
+        "value": "80px",
+        "type": "spacing"
+      },
+      "96": {
+        "value": "96px",
+        "type": "spacing"
+      },
+      "100": {
+        "value": "100px",
+        "type": "spacing"
+      },
+      "120": {
+        "value": "120px",
+        "type": "spacing"
+      },
+      "160": {
+        "value": "160px",
+        "type": "spacing"
+      }
+    },
+    "font-scale": {
+      "10": {
+        "value": "10px",
+        "type": "fontSizes"
+      },
+      "12": {
+        "value": "12px",
+        "type": "fontSizes"
+      },
+      "14": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "16": {
+        "value": "16px",
+        "type": "fontSizes"
+      },
+      "18": {
+        "value": "18px",
+        "type": "fontSizes"
+      },
+      "20": {
+        "value": "20px",
+        "type": "fontSizes"
+      },
+      "28": {
+        "value": "28px",
+        "type": "fontSizes"
+      },
+      "48": {
+        "value": "48px",
+        "type": "fontSizes"
+      },
+      "68": {
+        "value": "68px",
+        "type": "fontSizes"
+      },
+      "110": {
+        "value": "110px",
+        "type": "fontSizes"
+      },
+      "153": {
+        "value": "153px",
+        "type": "fontSizes"
+      },
+      "271": {
+        "value": "271px",
+        "type": "fontSizes"
+      }
     },
     "font-main": {
       "value": "Satoshi Variable, Helvetica",
@@ -169,7 +193,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{500}",
             "lineHeight": "{1,25EM}",
-            "fontSize": "{271}",
+            "fontSize": "{font-scale.271}",
             "letterSpacing": "{-2}",
             "textCase": "{lower-case}"
           },
@@ -181,7 +205,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{400}",
             "lineHeight": "{1,25EM}",
-            "fontSize": "{271}",
+            "fontSize": "{font-scale.271}",
             "letterSpacing": "{-2}",
             "textCase": "{lower-case}"
           },
@@ -195,7 +219,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{500}",
             "lineHeight": "{1EM}",
-            "fontSize": "{153}",
+            "fontSize": "{font-scale.153}",
             "letterSpacing": "{-2}",
             "textCase": "{lower-case}"
           },
@@ -207,7 +231,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{400}",
             "lineHeight": "{1EM}",
-            "fontSize": "{153}",
+            "fontSize": "{font-scale.153}",
             "letterSpacing": "{-2}",
             "textCase": "{lower-case}"
           },
@@ -221,7 +245,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{500}",
             "lineHeight": "{1,07EM}",
-            "fontSize": "{110}",
+            "fontSize": "{font-scale.110}",
             "letterSpacing": "{-1}",
             "textCase": "{lower-case}"
           },
@@ -233,7 +257,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{400}",
             "lineHeight": "{1,07EM}",
-            "fontSize": "{110}",
+            "fontSize": "{font-scale.110}",
             "letterSpacing": "{-1}",
             "textCase": "{lower-case}"
           },
@@ -245,7 +269,7 @@
             "fontFamily": "{font-secondary}",
             "fontWeight": "{400}",
             "lineHeight": "{1,07EM}",
-            "fontSize": "{110}",
+            "fontSize": "{font-scale.110}",
             "letterSpacing": "{-1}",
             "textCase": "{lower-case}"
           },
@@ -259,7 +283,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{500}",
             "lineHeight": "{1,1EM}",
-            "fontSize": "{68}",
+            "fontSize": "{font-scale.68}",
             "letterSpacing": "{-1}",
             "textCase": "{default-case}"
           },
@@ -271,7 +295,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{400}",
             "lineHeight": "{1,1EM}",
-            "fontSize": "{68}",
+            "fontSize": "{font-scale.68}",
             "letterSpacing": "{-1}",
             "textCase": "{default-case}"
           },
@@ -285,7 +309,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{500}",
             "lineHeight": "{1,1EM}",
-            "fontSize": "{48}",
+            "fontSize": "{font-scale.48}",
             "letterSpacing": "{-1}",
             "textCase": "{default-case}"
           },
@@ -297,7 +321,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{400}",
             "lineHeight": "{1,1EM}",
-            "fontSize": "{48}",
+            "fontSize": "{font-scale.48}",
             "letterSpacing": "{-1}",
             "textCase": "{default-case}"
           },
@@ -311,7 +335,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{500}",
             "lineHeight": "{1,2EM}",
-            "fontSize": "{28}",
+            "fontSize": "{font-scale.28}",
             "letterSpacing": "{-1}",
             "textCase": "{default-case}"
           },
@@ -323,7 +347,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{400}",
             "lineHeight": "{1,2EM}",
-            "fontSize": "{28}",
+            "fontSize": "{font-scale.28}",
             "letterSpacing": "{-1}",
             "textCase": "{default-case}"
           },
@@ -337,7 +361,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{500}",
             "lineHeight": "{1,3EM}",
-            "fontSize": "{20}",
+            "fontSize": "{font-scale.20}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -349,7 +373,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{400}",
             "lineHeight": "{1,3EM}",
-            "fontSize": "{20}",
+            "fontSize": "{font-scale.20}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -363,7 +387,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{600}",
             "lineHeight": "{1,35EM}",
-            "fontSize": "{18}",
+            "fontSize": "{font-scale.18}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -375,7 +399,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{400}",
             "lineHeight": "{1,35EM}",
-            "fontSize": "{18}",
+            "fontSize": "{font-scale.18}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -389,7 +413,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{600}",
             "lineHeight": "{1,3EM}",
-            "fontSize": "{16}",
+            "fontSize": "{font-scale.16}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -401,7 +425,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{500}",
             "lineHeight": "{1,3EM}",
-            "fontSize": "{16}",
+            "fontSize": "{font-scale.16}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -413,7 +437,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{400}",
             "lineHeight": "{1,3EM}",
-            "fontSize": "{16}",
+            "fontSize": "{font-scale.16}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -427,7 +451,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{600}",
             "lineHeight": "{1,3EM}",
-            "fontSize": "{14}",
+            "fontSize": "{font-scale.14}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -439,7 +463,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{500}",
             "lineHeight": "{1,3EM}",
-            "fontSize": "{14}",
+            "fontSize": "{font-scale.14}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -451,7 +475,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{400}",
             "lineHeight": "{1,3EM}",
-            "fontSize": "{14}",
+            "fontSize": "{font-scale.14}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -465,7 +489,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{600}",
             "lineHeight": "{1,3EM}",
-            "fontSize": "{12}",
+            "fontSize": "{font-scale.12}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -477,7 +501,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{400}",
             "lineHeight": "{1,3EM}",
-            "fontSize": "{12}",
+            "fontSize": "{font-scale.12}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -491,7 +515,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{600}",
             "lineHeight": "{1,1EM}",
-            "fontSize": "{10}",
+            "fontSize": "{font-scale.10}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -503,7 +527,7 @@
             "fontFamily": "{font-main}",
             "fontWeight": "{400}",
             "lineHeight": "{1,1EM}",
-            "fontSize": "{10}",
+            "fontSize": "{font-scale.10}",
             "letterSpacing": "{0}",
             "textCase": "{default-case}"
           },
@@ -626,7 +650,7 @@
         "type": "Animation"
       }
     },
-    "default": {
+    "rounded-full": {
       "value": "500px",
       "type": "borderRadius"
     },
@@ -719,7 +743,7 @@
     "section": {
       "desktop": {
         "medium": {
-          "value": "{160}",
+          "value": "{core-space.160}",
           "type": "spacing"
         }
       }
