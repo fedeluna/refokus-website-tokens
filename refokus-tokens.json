@@ -405,6 +405,18 @@
           },
           "type": "typography",
           "description": "18px"
+        },
+        "medium-desktop": {
+          "value": {
+            "fontFamily": "{font-main}",
+            "fontWeight": "{500}",
+            "lineHeight": "{1,35EM}",
+            "fontSize": "{font-scale.18}",
+            "letterSpacing": "{0}",
+            "textCase": "{default-case}"
+          },
+          "type": "typography",
+          "description": "18px"
         }
       },
       "c-text-2": {
@@ -788,12 +800,16 @@
           "type": "color"
         }
       },
-      "section": {
-        "divider-on-dark": {
+      "divider": {
+        "primary-on-dark": {
           "value": "{core.gray.700}",
           "type": "color"
         },
-        "divider-on-light": {
+        "secondary-on-dark": {
+          "value": "{core.gray.800}",
+          "type": "color"
+        },
+        "primary-on-light": {
           "value": "{core.gray.200}",
           "type": "color"
         }
@@ -843,6 +859,24 @@
           "value": "{core.c-text-2.regular-desktop}",
           "type": "typography"
         }
+      }
+    },
+    "action": {
+      "medium-default": {
+        "value": "{core.c-text-2.medium-desktop}",
+        "type": "typography"
+      },
+      "small-default": {
+        "value": "{core.c-text-3.medium-desktop}",
+        "type": "typography"
+      },
+      "small-hover": {
+        "value": "{core.c-text-3.bold-desktop}",
+        "type": "typography"
+      },
+      "small-focus": {
+        "value": "{core.c-text-3.bold-desktop}",
+        "type": "typography"
       }
     }
   },
