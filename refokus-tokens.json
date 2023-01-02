@@ -674,50 +674,54 @@
   "system-color": {
     "background": {
       "action": {
-        "primary-default-on-dark": {
-          "value": "{core.purple.50}",
-          "type": "color",
-          "description": "bg"
+        "primary": {
+          "default-on-dark": {
+            "value": "{core.purple.50}",
+            "type": "color",
+            "description": "bg"
+          },
+          "default-on-light": {
+            "value": "{core.gray.850 [out of system]}",
+            "type": "color",
+            "description": "bg"
+          },
+          "hover-on-dark": {
+            "value": "{core.gray.100}",
+            "type": "color",
+            "description": "bg"
+          },
+          "hover-on-light": {
+            "value": "{core.gray.700}",
+            "type": "color",
+            "description": "bg"
+          },
+          "focus-on-dark": {
+            "value": "{core.purple.50}",
+            "type": "color",
+            "description": "bg"
+          },
+          "focus-on-light": {
+            "value": "{core.gray.850 [out of system]}",
+            "type": "color",
+            "description": "bg"
+          }
         },
-        "primary-default-on-light": {
-          "value": "{core.gray.850 [out of system]}",
-          "type": "color",
-          "description": "bg"
-        },
-        "secondary-default-on-light": {
-          "value": "{core.gray.800}",
-          "type": "color",
-          "description": "bg"
-        },
-        "primary-hover-on-dark": {
-          "value": "{core.gray.100}",
-          "type": "color",
-          "description": "bg"
-        },
-        "primary-hover-on-light": {
-          "value": "{core.gray.700}",
-          "type": "color",
-          "description": "bg"
-        },
-        "secondary-hover-on-dark": {
-          "value": "hsla(240, 100%, 100%, 0.1)",
-          "type": "color",
-          "description": "bg"
-        },
-        "secondary-hover-on-light": {
-          "value": "hsla(240, 100%, 0%, 0.08)",
-          "type": "color",
-          "description": "bg"
-        },
-        "primary-focus-on-dark": {
-          "value": "{core.purple.50}",
-          "type": "color",
-          "description": "bg"
-        },
-        "primary-focus-on-light": {
-          "value": "{core.gray.850 [out of system]}",
-          "type": "color",
-          "description": "bg"
+        "secondary": {
+          "default-on-light": {
+            "value": "{core.gray.800}",
+            "type": "color",
+            "description": "bg"
+          },
+          "hover-on-dark": {
+            "value": "hsla(240, 100%, 100%, 0.1)",
+            "type": "color",
+            "description": "bg"
+          },
+          "hover-on-light": {
+            "value": "hsla(240, 100%, 0%, 0.08)",
+            "type": "color",
+            "description": "bg"
+          }
         }
       },
       "section": {
@@ -735,41 +739,45 @@
     },
     "text": {
       "action": {
-        "primary-default-on-dark": {
-          "value": "{core.neutral.white}",
-          "type": "color"
+        "primary": {
+          "default-on-dark": {
+            "value": "{core.neutral.white}",
+            "type": "color"
+          },
+          "default-on-light": {
+            "value": "{core.gray.850 [out of system]}",
+            "type": "color"
+          },
+          "hover-on-dark": {
+            "value": "{core.neutral.white}",
+            "type": "color"
+          },
+          "focus-on-dark": {
+            "value": "{core.neutral.white}",
+            "type": "color"
+          },
+          "focus-on-light": {
+            "value": "{core.gray.850 [out of system]}",
+            "type": "color"
+          }
         },
-        "primary-default-on-light": {
-          "value": "{core.gray.850 [out of system]}",
-          "type": "color"
-        },
-        "secondary-default-on-dark": {
-          "value": "{core.gray.400}",
-          "type": "color"
-        },
-        "secondary-default-on-light": {
-          "value": "{core.gray.500}",
-          "type": "color"
-        },
-        "primary-hover-on-dark": {
-          "value": "{core.neutral.white}",
-          "type": "color"
-        },
-        "secondary-hover-on-dark": {
-          "value": "{core.neutral.white}",
-          "type": "color"
-        },
-        "secondary-hover-on-light": {
-          "value": "{core.gray.500}",
-          "type": "color"
-        },
-        "primary-focus-on-dark": {
-          "value": "{core.neutral.white}",
-          "type": "color"
-        },
-        "primary-focus-on-light": {
-          "value": "{core.gray.850 [out of system]}",
-          "type": "color"
+        "secondary": {
+          "default-on-dark": {
+            "value": "{core.gray.400}",
+            "type": "color"
+          },
+          "default-on-light": {
+            "value": "{core.gray.500}",
+            "type": "color"
+          },
+          "hover-on-dark": {
+            "value": "{core.neutral.white}",
+            "type": "color"
+          },
+          "hover-on-light": {
+            "value": "{core.gray.500}",
+            "type": "color"
+          }
         }
       },
       "section": {
@@ -805,12 +813,12 @@
           "value": "{core.gray.700}",
           "type": "color"
         },
-        "secondary-on-dark": {
-          "value": "{core.gray.800}",
-          "type": "color"
-        },
         "primary-on-light": {
           "value": "{core.gray.200}",
+          "type": "color"
+        },
+        "secondary-on-dark": {
+          "value": "{core.gray.800}",
           "type": "color"
         }
       }
