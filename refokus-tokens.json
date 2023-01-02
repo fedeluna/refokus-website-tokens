@@ -168,6 +168,10 @@
       "value": "135%",
       "type": "lineHeights"
     },
+    "1,80EM": {
+      "value": "180%",
+      "type": "lineHeights"
+    },
     "-1": {
       "value": "-1%",
       "type": "letterSpacing"
@@ -852,6 +856,10 @@
         "primary": {
           "value": "{core.c-title-3.medium-desktop}",
           "type": "typography"
+        },
+        "secondary": {
+          "value": "{core.c-title-4.medium-desktop}",
+          "type": "typography"
         }
       },
       "hero": {
@@ -867,24 +875,46 @@
           "value": "{core.c-text-2.regular-desktop}",
           "type": "typography"
         }
-      }
-    },
-    "action": {
-      "medium-default": {
-        "value": "{core.c-text-2.medium-desktop}",
-        "type": "typography"
       },
-      "small-default": {
-        "value": "{core.c-text-3.medium-desktop}",
-        "type": "typography"
+      "action": {
+        "small-default": {
+          "value": "{core.c-text-3.medium-desktop}",
+          "type": "typography"
+        },
+        "small-hover": {
+          "value": "{core.c-text-3.bold-desktop}",
+          "type": "typography"
+        },
+        "medium-default": {
+          "value": "{core.c-text-2.medium-desktop}",
+          "type": "typography"
+        },
+        "small-focus": {
+          "value": "{core.c-text-3.bold-desktop}",
+          "type": "typography"
+        }
       },
-      "small-hover": {
-        "value": "{core.c-text-3.bold-desktop}",
-        "type": "typography"
-      },
-      "small-focus": {
-        "value": "{core.c-text-3.bold-desktop}",
-        "type": "typography"
+      "blog": {
+        "body-regular": {
+          "value": {
+            "fontFamily": "{font-main}",
+            "fontWeight": "{400}",
+            "lineHeight": "{1,80EM}",
+            "fontSize": "{font-scale.18}",
+            "letterSpacing": "{0}"
+          },
+          "type": "typography"
+        },
+        "body-bold": {
+          "value": {
+            "fontFamily": "{font-main}",
+            "fontWeight": "{600}",
+            "lineHeight": "{1,80EM}",
+            "fontSize": "{font-scale.18}",
+            "letterSpacing": "{0}"
+          },
+          "type": "typography"
+        }
       }
     }
   },
