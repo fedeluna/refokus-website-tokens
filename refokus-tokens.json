@@ -727,8 +727,36 @@
           "value": "{core.neutral.white}",
           "type": "color"
         },
+        "primary-hover-on-dark": {
+          "value": "{core.neutral.white}",
+          "type": "color"
+        },
+        "primary-focus-on-dark": {
+          "value": "{core.neutral.white}",
+          "type": "color"
+        },
         "primary-default-on-light": {
           "value": "{core.gray.850 [out of system]}",
+          "type": "color"
+        },
+        "primary-focus-on-light": {
+          "value": "{core.gray.850 [out of system]}",
+          "type": "color"
+        },
+        "secondary-default-on-light": {
+          "value": "{core.gray.500}",
+          "type": "color"
+        },
+        "secondary-hover-on-light": {
+          "value": "{core.gray.500}",
+          "type": "color"
+        },
+        "secondary-default-on-dark": {
+          "value": "{core.gray.400}",
+          "type": "color"
+        },
+        "secondary-hover-on-dark": {
+          "value": "{core.neutral.white}",
           "type": "color"
         }
       },
