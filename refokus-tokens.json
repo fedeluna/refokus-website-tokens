@@ -1241,21 +1241,41 @@
         }
       },
       "action": {
-        "small-default": {
-          "value": "{core.c-text-3.medium-desktop}",
-          "type": "typography"
+        "desktop": {
+          "small-default": {
+            "value": "{core.c-text-3.medium-desktop}",
+            "type": "typography"
+          },
+          "small-hover": {
+            "value": "{core.c-text-3.bold-desktop}",
+            "type": "typography"
+          },
+          "medium-default": {
+            "value": "{core.c-text-2.medium-desktop}",
+            "type": "typography"
+          },
+          "small-focus": {
+            "value": "{core.c-text-3.bold-desktop}",
+            "type": "typography"
+          }
         },
-        "small-hover": {
-          "value": "{core.c-text-3.bold-desktop}",
-          "type": "typography"
-        },
-        "medium-default": {
-          "value": "{core.c-text-2.medium-desktop}",
-          "type": "typography"
-        },
-        "small-focus": {
-          "value": "{core.c-text-3.bold-desktop}",
-          "type": "typography"
+        "mobile": {
+          "small-default": {
+            "value": "{core.c-text-3.medium-mobile}",
+            "type": "typography"
+          },
+          "small-hover": {
+            "value": "{core.c-text-3.bold-mobile}",
+            "type": "typography"
+          },
+          "medium-default": {
+            "value": "{core.c-text-2.medium-mobile}",
+            "type": "typography"
+          },
+          "small-focus": {
+            "value": "{core.c-text-3.bold-mobile}",
+            "type": "typography"
+          }
         }
       },
       "blog": {
