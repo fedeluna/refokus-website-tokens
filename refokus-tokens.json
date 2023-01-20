@@ -394,6 +394,18 @@
         }
       },
       "c-title-4": {
+        "serif-desktop": {
+          "value": {
+            "fontFamily": "{font-secondary}",
+            "fontWeight": "{400}",
+            "lineHeight": "{1,07EM}",
+            "fontSize": "{font-scale.68}",
+            "letterSpacing": "{-1}",
+            "textCase": "{lower-case}"
+          },
+          "type": "typography",
+          "description": "68px"
+        },
         "medium-desktop": {
           "value": {
             "fontFamily": "{font-main}",
@@ -444,6 +456,18 @@
         }
       },
       "c-title-5": {
+        "serif-desktop": {
+          "value": {
+            "fontFamily": "{font-secondary}",
+            "fontWeight": "{400}",
+            "lineHeight": "{1,07EM}",
+            "fontSize": "{font-scale.48}",
+            "letterSpacing": "{-1}",
+            "textCase": "{lower-case}"
+          },
+          "type": "typography",
+          "description": "48px"
+        },
         "medium-desktop": {
           "value": {
             "fontFamily": "{font-main}",
