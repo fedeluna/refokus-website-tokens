@@ -1099,7 +1099,7 @@
           "description": "bg"
         },
         "primary-dark": {
-          "value": "{core.gray.850 [out of system]}",
+          "value": "{core.gray.900}",
           "type": "color",
           "description": "bg"
         }
