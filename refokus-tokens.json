@@ -406,6 +406,18 @@
           "type": "typography",
           "description": "68px"
         },
+        "serif-mobile": {
+          "value": {
+            "fontFamily": "{font-secondary}",
+            "fontWeight": "{400}",
+            "lineHeight": "{1,07EM}",
+            "fontSize": "{font-scale.46}",
+            "letterSpacing": "{-1}",
+            "textCase": "{lower-case}"
+          },
+          "type": "typography",
+          "description": "46px"
+        },
         "medium-desktop": {
           "value": {
             "fontFamily": "{font-main}",
@@ -467,6 +479,18 @@
           },
           "type": "typography",
           "description": "48px"
+        },
+        "serif-mobile": {
+          "value": {
+            "fontFamily": "{font-secondary}",
+            "fontWeight": "{400}",
+            "lineHeight": "{1,07EM}",
+            "fontSize": "{font-scale.31}",
+            "letterSpacing": "{-1}",
+            "textCase": "{lower-case}"
+          },
+          "type": "typography",
+          "description": "31px"
         },
         "medium-desktop": {
           "value": {
