@@ -1217,11 +1217,11 @@
     "text-system": {
       "base": {
         "heading": {
-          "[DSKTP]-section-primary": {
+          "[DT]-section-primary": {
             "value": "{text-core.c-title-3.medium-desktop}",
             "type": "typography"
           },
-          " [DSKTP]-section-secondary": {
+          " [DT]-section-secondary": {
             "value": "{text-core.c-title-4.medium-desktop}",
             "type": "typography"
           },
@@ -1233,7 +1233,7 @@
             "value": "{text-core.c-title-4.medium-mobile}",
             "type": "typography"
           },
-          "[DSKTP]-hero-primary": {
+          "[DT]-hero-primary": {
             "value": "{text-core.c-title-1.medium-desktop}",
             "type": "typography"
           },
@@ -1243,7 +1243,7 @@
           }
         },
         "text": {
-          "[DSKTP]-body-primary": {
+          "[DT]-body-primary": {
             "value": "{text-core.c-text-2.regular-desktop}",
             "type": "typography"
           },
@@ -1254,7 +1254,7 @@
         }
       },
       "blog": {
-        "[DSKTP]-body-regular": {
+        "[DT]-body-regular": {
           "value": {
             "fontFamily": "{font-main}",
             "fontWeight": "{400}",
@@ -1264,7 +1264,7 @@
           },
           "type": "typography"
         },
-        "[DSKTP]-body-bold": {
+        "[DT]-body-bold": {
           "value": {
             "fontFamily": "{font-main}",
             "fontWeight": "{600}",
