@@ -1,5 +1,5 @@
 {
-  "source": {
+  "refokus-src": {
     "0": {
       "value": "0%",
       "type": "letterSpacing"
@@ -1101,7 +1101,7 @@
       "type": "textCase"
     }
   },
-  "system-color": {
+  "color-system": {
     "color-system": {
       "surface": {
         "base-light": {
@@ -1203,7 +1203,7 @@
       }
     }
   },
-  "system-spacing": {
+  "spacing-system": {
     "section": {
       "desktop": {
         "medium": {
@@ -1213,7 +1213,7 @@
       }
     }
   },
-  "system-type": {
+  "text-system": {
     "text-system": {
       "base": {
         "heading": {
@@ -1340,7 +1340,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "refokus-source",
+      "refokus-src",
       "color-system",
       "spacing-system",
       "text-system"
