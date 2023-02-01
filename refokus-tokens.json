@@ -1089,57 +1089,6 @@
   },
   "system-color": {
     "color-system": {
-      "action": {
-        "primary": {
-          "default-on-dark": {
-            "value": "{core.purple.50}",
-            "type": "color",
-            "description": "bg"
-          },
-          "default-on-light": {
-            "value": "{core.gray.850 [out of system]}",
-            "type": "color",
-            "description": "bg"
-          },
-          "hover-on-dark": {
-            "value": "{core.gray.100}",
-            "type": "color",
-            "description": "bg"
-          },
-          "hover-on-light": {
-            "value": "{core.gray.700}",
-            "type": "color",
-            "description": "bg"
-          },
-          "focus-on-dark": {
-            "value": "{core.purple.50}",
-            "type": "color",
-            "description": "bg"
-          },
-          "focus-on-light": {
-            "value": "{core.gray.850 [out of system]}",
-            "type": "color",
-            "description": "bg"
-          }
-        },
-        "secondary": {
-          "default-on-light": {
-            "value": "{core.gray.800}",
-            "type": "color",
-            "description": "bg"
-          },
-          "hover-on-dark": {
-            "value": "hsla(240, 100%, 100%, 0.1)",
-            "type": "color",
-            "description": "bg"
-          },
-          "hover-on-light": {
-            "value": "hsla(240, 100%, 0%, 0.08)",
-            "type": "color",
-            "description": "bg"
-          }
-        }
-      },
       "surface": {
         "base-light": {
           "value": "{core.purple.50}",
@@ -1149,103 +1098,93 @@
           "value": "{core.gray.900}",
           "type": "color"
         }
-      }
-    },
-    "text": {
-      "action": {
-        "primary": {
-          "default-on-dark": {
-            "value": "{core.neutral.white}",
+      },
+      "text-base": {
+        "body-primary-on-light": {
+          "value": "{core.gray.900}",
+          "type": "color"
+        },
+        "body-primary-on-dark": {
+          "value": "{core.gray.200}",
+          "type": "color"
+        },
+        "heading-primary-on-light": {
+          "value": "{core.gray.850 [out of system]}",
+          "type": "color"
+        },
+        "heading-primary-on-dark": {
+          "value": "{core.neutral.white}",
+          "type": "color"
+        }
+      },
+      "special": {
+        "nav": {
+          "dot-focus-on-dark": {
+            "value": "#00ff19",
             "type": "color"
           },
+          "dot-focus-on-light": {
+            "value": "#00d716",
+            "type": "color"
+          }
+        },
+        "brand": {
+          "webflow": {
+            "value": "#4353FF",
+            "type": "color"
+          }
+        },
+        "divider": {
+          "primary-on-dark": {
+            "value": "{core.gray.700}",
+            "type": "color"
+          },
+          "primary-on-light": {
+            "value": "{core.gray.200}",
+            "type": "color"
+          },
+          "secondary-on-dark": {
+            "value": "{core.gray.800}",
+            "type": "color"
+          }
+        }
+      },
+      "action": {
+        "primary": {
           "default-on-light": {
-            "value": "{core.gray.850 [out of system]}",
+            "value": "{core.gray.900}",
+            "type": "color"
+          },
+          "hover-on-light": {
+            "value": "{core.gray.700}",
+            "type": "color"
+          },
+          "default-on-dark": {
+            "value": "{core.purple.50}",
             "type": "color"
           },
           "hover-on-dark": {
-            "value": "{core.neutral.white}",
-            "type": "color"
-          },
-          "focus-on-dark": {
-            "value": "{core.neutral.white}",
-            "type": "color"
-          },
-          "focus-on-light": {
-            "value": "{core.gray.850 [out of system]}",
+            "value": "{core.purple.100}",
             "type": "color"
           }
         },
         "secondary": {
           "default-on-dark": {
-            "value": "{core.gray.400}",
-            "type": "color"
-          },
-          "default-on-light": {
-            "value": "{core.gray.500}",
+            "value": "{core.purple.50}",
             "type": "color"
           },
           "hover-on-dark": {
-            "value": "{core.neutral.white}",
+            "value": "hsla({source.purple}, 100%, 98%, 0.1)",
+            "type": "color"
+          },
+          "default-on-light": {
+            "value": "{core.gray.900}",
             "type": "color"
           },
           "hover-on-light": {
-            "value": "{core.gray.500}",
+            "value": "hsla({source.gray}, 6%, 9%, 0.08)",
             "type": "color"
           }
-        }
-      },
-      "section": {
-        "dafault-on-dark": {
-          "value": "{core.gray.200}",
-          "type": "color"
-        },
-        "dafault-on-light": {
-          "value": "{core.gray.850 [out of system]}",
-          "type": "color"
-        }
-      }
-    },
-    "special": {
-      "nav": {
-        "dot-focus-on-dark": {
-          "value": "#00ff19",
-          "type": "color"
-        },
-        "dot-focus-on-light": {
-          "value": "#00d716",
-          "type": "color"
-        }
-      },
-      "brand": {
-        "webflow": {
-          "value": "#4353FF",
-          "type": "color"
-        }
-      },
-      "divider": {
-        "primary-on-dark": {
-          "value": "{core.gray.700}",
-          "type": "color"
-        },
-        "primary-on-light": {
-          "value": "{core.gray.200}",
-          "type": "color"
-        },
-        "secondary-on-dark": {
-          "value": "{core.gray.800}",
-          "type": "color"
-        }
-      }
-    },
-    "title": {
-      "section": {
-        "default-on-dark": {
-          "value": "{core.neutral.white}",
-          "type": "color"
-        },
-        "default-on-light": {
-          "value": "{core.gray.850 [out of system]}",
-          "type": "color"
         }
       }
     }
