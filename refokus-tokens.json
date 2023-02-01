@@ -1218,37 +1218,37 @@
       "base": {
         "heading": {
           "[DT]-section-primary": {
-            "value": "{text-core.c-title-3.medium-desktop}",
+            "value": "{text-core.c-title-3.[DT]-medium}",
             "type": "typography"
           },
           " [DT]-section-secondary": {
-            "value": "{text-core.c-title-4.medium-desktop}",
+            "value": "{text-core.c-title-4.[DT]-medium}",
             "type": "typography"
           },
           "[MOB]-section-primary": {
-            "value": "{text-core.c-title-3.medium-mobile}",
+            "value": "{text-core.c-title-3.[MOB]-medium}",
             "type": "typography"
           },
           "[MOB]-section-secondary": {
-            "value": "{text-core.c-title-4.medium-mobile}",
+            "value": "{text-core.c-title-4.[MOB]-medium}",
             "type": "typography"
           },
           "[DT]-hero-primary": {
-            "value": "{text-core.c-title-1.medium-desktop}",
+            "value": "{text-core.c-title-1.[DT]-medium}",
             "type": "typography"
           },
           "[MOB]-hero-primary": {
-            "value": "{text-core.c-title-1.medium-mobile}",
+            "value": "{text-core.c-title-1.[MOB]-medium}",
             "type": "typography"
           }
         },
         "text": {
           "[DT]-body-primary": {
-            "value": "{text-core.c-text-2.regular-desktop}",
+            "value": "{text-core.c-text-2.[DT]-regular}",
             "type": "typography"
           },
           "[MOB]-body-primary": {
-            "value": "{text-core.c-text-2.regular-mobile}",
+            "value": "{text-core.c-text-2.[MOB]-regular}",
             "type": "typography"
           }
         }
@@ -1300,37 +1300,37 @@
       "action": {
         "desktop": {
           "small-default": {
-            "value": "{text-core.c-text-3.medium-desktop}",
+            "value": "{text-core.c-text-3.[DT]-medium}",
             "type": "typography"
           },
           "small-hover": {
-            "value": "{text-core.c-text-3.bold-desktop}",
+            "value": "{text-core.c-text-3.[DT]-bold}",
             "type": "typography"
           },
           "medium-default": {
-            "value": "{text-core.c-text-2.medium-desktop}",
+            "value": "{text-core.c-text-2.[DT]-medium}",
             "type": "typography"
           },
           "small-focus": {
-            "value": "{text-core.c-text-3.bold-desktop}",
+            "value": "{text-core.c-text-3.[DT]-bold}",
             "type": "typography"
           }
         },
         "mobile": {
           "small-default": {
-            "value": "{text-core.c-text-3.medium-mobile}",
+            "value": "{text-core.c-text-3.[MOB]-medium}",
             "type": "typography"
           },
           "small-hover": {
-            "value": "{text-core.c-text-3.bold-mobile}",
+            "value": "{text-core.c-text-3.[MOB]-bold}",
             "type": "typography"
           },
           "medium-default": {
-            "value": "{text-core.c-text-2.medium-mobile}",
+            "value": "{text-core.c-text-2.[MOB]-medium}",
             "type": "typography"
           },
           "small-focus": {
-            "value": "{text-core.c-text-3.bold-mobile}",
+            "value": "{text-core.c-text-3.[MOB]-bold}",
             "type": "typography"
           }
         }
@@ -1340,10 +1340,10 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "source",
-      "system-color",
-      "system-spacing",
-      "system-type"
+      "refokus-source",
+      "color-system",
+      "spacing-system",
+      "text-system"
     ]
   }
 }
