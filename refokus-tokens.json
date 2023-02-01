@@ -1088,7 +1088,7 @@
     }
   },
   "system-color": {
-    "background": {
+    "color-system": {
       "action": {
         "primary": {
           "default-on-dark": {
@@ -1140,16 +1140,14 @@
           }
         }
       },
-      "section": {
-        "primary-light": {
+      "surface": {
+        "base-light": {
           "value": "{core.purple.50}",
-          "type": "color",
-          "description": "bg"
+          "type": "color"
         },
-        "primary-dark": {
+        "base-dark": {
           "value": "{core.gray.900}",
-          "type": "color",
-          "description": "bg"
+          "type": "color"
         }
       }
     },
