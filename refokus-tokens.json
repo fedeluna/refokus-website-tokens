@@ -1294,11 +1294,9 @@
           },
           "type": "typography"
         }
-      }
-    },
-    "text": {
+      },
       "action": {
-        "desktop": {
+        "[DT]": {
           "small-default": {
             "value": "{text-core.c-text-3.[DT]-medium}",
             "type": "typography"
@@ -1316,7 +1314,7 @@
             "type": "typography"
           }
         },
-        "mobile": {
+        "[MOB]": {
           "small-default": {
             "value": "{text-core.c-text-3.[MOB]-medium}",
             "type": "typography"
