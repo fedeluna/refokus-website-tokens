@@ -1099,6 +1099,12 @@
     "lower-case": {
       "value": "lowercase",
       "type": "textCase"
+    },
+    "spacing-source": {
+      "160": {
+        "value": "160",
+        "type": "sizing"
+      }
     }
   },
   "color-system": {
@@ -1204,11 +1210,11 @@
     }
   },
   "spacing-system": {
-    "section": {
-      "desktop": {
-        "medium": {
-          "value": "{core-space.160}",
-          "type": "spacing"
+    "spacing-system": {
+      "section-spacer": {
+        "m": {
+          "value": "{spacing-source.160}",
+          "type": "sizing"
         }
       }
     }
