@@ -487,7 +487,7 @@
             "lineHeight": "{1,07EM}",
             "fontSize": "{font-scale.48}",
             "letterSpacing": "{-1}",
-            "textCase": "{lower-case}"
+            "textCase": "{default-case}"
           },
           "type": "typography",
           "description": "48px"
